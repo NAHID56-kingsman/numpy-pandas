@@ -1,7 +1,5 @@
 ''': Create a random 5x5 matrix and compute its
-transpose and matrix product with itself (A^T A).'''
-
-
+transpose and matrix product with itself (A^T A). '''
 
 import numpy as np
 
@@ -14,6 +12,7 @@ print("----------------haha noob----------------")
 print(arr.T)
 print("----------------haha noob----------------")
 print(arr.T @ arr)
+print(arr.T * arr)
 
 # A.T @ A → multiplies transpose of A with A using matrix multiplication rule (this is the Gram matrix, symmetric, important in linear algebra & ML).
 
